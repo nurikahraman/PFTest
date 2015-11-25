@@ -85,7 +85,7 @@ LiquidCrystal_I2C lcd(I2C_ADDR, En, Rw, Rs, D4,D5,D6,D7);
 //Array of servo objects
 Servo servo[6];
 //Zero positions of servos, in this positions their arms are perfectly horizontal, in us
-static int zero[6]={1575,1640,1645,1640,1530,1635};
+static int zero[6]={1575,1640,1545,1640,1530,1635};
 //In this array is stored requested position for platform - x,y,z,rot(x),rot(y),rot(z)
 static float arr[6]={0,0.0,0, radians(0),radians(0),radians(0)};
 static float sifirla[6] = { 0,0.0,0, radians(0),radians(0),radians(0) };

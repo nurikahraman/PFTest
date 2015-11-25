@@ -30,7 +30,7 @@
 #define D6_pin  6
 #define D7_pin  7
 
-int n = 1;
+
 
 LiquidCrystal_I2C	lcd(I2C_ADDR, En_pin, Rw_pin, Rs_pin, D4_pin, D5_pin, D6_pin, D7_pin);
 
